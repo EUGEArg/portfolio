@@ -1,0 +1,106 @@
+/* HEADER */
+
+.menu-nav{
+    display: flex;
+    flex-direction: column;
+} 
+
+.icono-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }  
+
+.scroll-container{
+    text-align: center; 
+     } 
+
+    /*SECTIONS CONTAINER*/
+.welcome-container, .skills-container, .about-container, .contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  /* titulos secciones */
+.title-sections{
+    text-align: center;
+}
+
+  /* WELCOME SECTION */
+
+.welcome-childs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  
+  /* skills */
+
+.icono-skills-container{
+  display: flex;
+  flex-direction: row;  
+  }
+  
+.icono-texto {
+    display: flex;
+    flex-direction: column; 
+    align-items:center; 
+  } 
+
+.hard-skills{
+    display: flex;
+    flex-direction: row;
+   }
+   
+
+   /* projects section */
+.projects-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding-top: 20px;
+  } 
+
+  .titulo-proyecto{
+ text-align: center;   
+  }
+
+.proyectos-fcode-container, .apps-js-container{
+    display: flex;
+    flex-direction: row;
+   }
+
+.betty-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.links-3d-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+ }
+
+
+.contactos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+  }
+   
+
+.form-contact{
+  display: flex;
+  flex-direction: column; 
+}
+
+footer{
+  text-align: center; 
+}
+
+ 

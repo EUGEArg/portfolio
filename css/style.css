@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+body{
+    background-color:rgb(43, 39, 39);  
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  /* RESOLVER SCROLL
+  .container{
+    ;
+    overflow-y: hidden;
+    scroll-snap-type: y mandatory;
+  } */
+
+/*----- HEADER ----- */
+.header-container{
+    position: fixed;
+    height:100%;
+    width: 10%;
+    background-color: rgb(27, 26, 27); 
+}
+
+ .btn-open {
+    padding-left: 17px;
+    padding-top: 20px;
+    color: #692ff1;
+    font-size: 30px;
+    height: 10vh;
+}
+
+.btn-open:hover {
+    color: #20f0c3;
+}
+
+.menu {
+    visibility: hidden;
+}
+
+.nav-link {
+    color: #8aaaa3;
+    text-decoration: none;    
+    padding:20px 0 20px 0;
+    border-bottom: 3px solid rgb(43, 39, 39);  
+}
+
+.nav-link:hover{
+  color: #20f0c3;
+}
+
+.icon-nav{
+  width: 20px;
+  padding-left: 17px;
+  padding-top: 20px;
+} 
+
+/* CONTAINER- SECTIONS */
+.welcome-container, .about-container, .skills-container{
+    height: 100vh;      
+    padding-left: 90px; 
+  } 
+
+  .projects-container{
+    height: 200vh;
+  }
+
+.contact-container{
+    height: 90vh;      
+    padding-left: 100px; 
+  }
+
+  /* ----- WELCOME SECTION----- */
+.welcome-childs{
+    padding: 30px 0 20px 0;
+    height: 95vh;
+  }
+
+.img-welcome{
+    margin-top: 30px;
+    padding-left: 30px;
+  }
+
+.img-portfolio{
+    width: 420px;
+    border-radius: 50%; 
+   }
+
+
+.scroll-container{
+    height: 5vh;
+   }
+   
+.scroll-page{
+    font-size: 25px;
+    color: #692ff1;
+   }
+  
+  
+h1 {
+    font-size: 80px;
+    color: white;
+  }
+  
+h2 {
+    font-size: 30px;
+     color: white;
+  }
+
+  
+h3 {
+    font-size: 25px;
+    color: white; 
+
+  }
+
+h4 {
+    color: white; 
+    font-size: 20px;
+    padding: 20px;
+  } 
+  
+
+ /* ABOUT SECTION */
+
+.title-sections{
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.about{
+  position: relative;
+  left: 15%;
+  width: 80%;
+  padding-top: 30px;
+}
+
+p {
+     color: white;
+     font-size: 16px;
+     line-height: 1.4;
+  } 
+
+
+  .skills{
+    color: white;
+    font-size: 15px;
+    line-height: 1.4;
+  }
+
+  .hard-skills{
+    color: white;
+    font-size: 40px;
+    padding: 5px; 
+    margin-top: 35px;
+   
+  }
+
+  .fa-brands{
+    padding: 5px;
+  }
+
+  .zbrush-aling{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+  }
+
+
+  .icono-skills-container{
+    position: relative;
+    left: 20%;
+    padding-top: 30px;
+  }
+
+  .tamanoicono {
+    font-size: 85px;
+    height: fit-content;
+    padding: 50px; 
+    border: 2px solid;
+    border-radius: 10%;
+    background: #692ff1;
+    color: #20f0c3;
+    max-width: 100px;
+    max-height: 100px; 
+  }
+
+.tamanoicono:hover {
+    background-color: #20f0c3;
+    color: #692ff1; 
+} 
+
+  
+/* projects section */
+
+.proyectos-fcode-container, .betty-container, .apps-js-container{
+  margin: 8px; 
+}
+
+.titulo-proyecto{
+  font-size: 17px ;
+  text-decoration: none; 
+}
+
+.proyectos-tamaño, .apps-tamaño{
+    width: 260px;
+    margin-left:40px;
+    border-radius: 5%;   
+  }
+  
+
+.bettystamaño{
+    width: 200PX;
+    margin: 10px;
+    border-radius: 5%;  
+  }
+
+.betty-container{
+    z-index: 5;
+   } 
+
+.proyecto-child, .apps-js-child{
+    margin-left: 40px;
+  }
+
+
+.betty-child img.top {
+    position: absolute;
+    left: 0;
+    transition: opacity 1.5s ease-in-out;
+  }
+  
+.betty-child img:hover {
+    opacity: 0;
+  }
+  
+.betty-child{
+    position: relative;
+    float: left; 
+  }
+  
+.modelados-stl-child{
+   padding-left: 15%;
+  
+  }
+  
+.modelados-tamaño{
+  width: 140PX;
+  margin: 10px 30px 20px 30px ;
+  border-radius: 6%;
+ }
+  
+.link-cults-cgtrader {
+    font-size: 15px;
+    color: #20f0c3;
+    text-decoration: none;
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+
+.input-contact{
+    background-color:rgb(51, 48, 48);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    opacity: 70%;
+    padding: 5px;
+    margin: 3px 0;
+    border: 1.5px solid rgb(43, 39, 39) ;
+  }
+
+.input-contact:hover{
+    border-bottom: 2px solid #20f0c3;
+  }
+ 
+.enviar{
+    font-family: 'Montserrat', sans-serif;
+    background-color:rgb(51, 48, 48);
+    color: #20f0c3;
+    border: 1px solid #20f0c3;
+    font-size: 20px;
+    padding: 10px 20px;  
+  }
+
+  .enviar:hover{
+    background-color:#20f0c3;
+    opacity: 90%;
+    color: rgb(51, 48, 48);
+  }
+
+  .input-submit{
+    margin-top: 15px;
+    text-align: end;
+  } 
+
+  .nav-contactos{
+    font-family: 'Montserrat', sans-serif;
+    height: 10%;
+  }
+
+.contacto{
+  padding-right: 20px;
+}
+

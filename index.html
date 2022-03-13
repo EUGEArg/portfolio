@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/flexbox.css" />
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>EugeARG</title>
+  </head>
+
+  <body style="overflow-x: hidden">
+    <div class="container">
+      <header id="home" class="header-container">
+        <div class="menu-nav">
+          <span id="bnt-menu" class="btn-open"
+            ><a href="#welcome-section"
+              ><i class="fa-solid fa-bars btn-open"></i></a
+          ></span>
+          <nav class="navbar">
+            <ul class="menu" id="menu">
+              <li class="item-menu">
+                <a href="#about" class="nav-link nav-link:hover icono-center"
+                  ><span class="material-icons-outlined">
+                    favorite </span
+                  >ABOUT</a
+                >
+              </li>
+              <li class="item-menu">
+                <a href="#skills" class="nav-link nav-link:hover icono-center"
+                  ><span class="material-icons-outlined">
+                    description </span
+                  >MI SKILLS</a
+                >
+              </li>
+              <li class="item-menu">
+                <a href="#projects" class="nav-link nav-link:hover icono-center"
+                  ><span class="material-icons-outlined"
+                    >insert_photo </span
+                  >WORK</a
+                >
+              </li>
+              <li class="item-menu">
+                <a href="#contacto" class="nav-link nav-link:hover icono-center"
+                  ><span class="material-icons-outlined">
+                    email </span
+                  >CONTACT</a
+                >
+              </li>
+              <li class="item-menu">
+                <a
+                  href="https://www.linkedin.com/in/eugenia-rivarossa"
+                  target="_blank"
+                  ><img
+                    src="./assets/icons/linkedin.png"
+                    alt=""
+                    class="icon-nav"
+                /></a>
+                <a href="https://github.com/EUGEArg" target="_blank">
+                  <img src="./assets/icons/github.png" alt="" class="icon-nav"
+                /></a>
+                <a href="https://t.me/eugeArg" target="_blank"
+                  ><img
+                    src="./assets/icons/telegram.png"
+                    alt=""
+                    class="icon-nav"
+                /></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <!-- WELCOME SECTION -->
+      <section id="welcome-section" class="welcome-container">
+        <div class="welcome-childs">
+          <div class="title-welcome">
+            <h1>
+              Hi, <br />I'm E<span style="color: #03f8c3">U</span>GE<span
+                style="color: #03f8c3"
+                >N</span
+              >IA
+            </h1>
+            <h2 class="animate__animated animate__backInLeft">
+              <span class="rotate"
+                >WEB DESIGNER <br />
+                3D ARTIST</span
+              >
+            </h2>
+          </div>
+          <div class="img-welcome">
+            <img
+              src="./assets/images/img-welcome.jpg"
+              alt=""
+              class="img-portfolio"
+            />
+          </div>
+        </div>
+
+        <div class="scroll-container">
+          <a href="#about"
+            ><i class="fa-solid fa-angle-down scroll-page"></i
+          ></a>
+        </div>
+      </section>
+
+      <!-- ABOUT SECTION -->
+      <section id="about" class="about-container">
+        <h3 class="title-sections">
+          A LITTLE<span style="color: #03f8c3"> ABOUT</span> ME
+        </h3>
+        <div>
+          <p class="about">
+            Many times I heard that about "turning the rudder" without
+            understanding exactly what it meant or what effects it could have on
+            my life or on the lives of those who accompany me... I turned the
+            rudder, and here I find myself being a HAPPY Programming student.
+            <br />
+            My goal is to be a Full Stack Developer and for this I train every
+            day, taking different courses, developing applications, reading,
+            "coding"... <br />
+            I am a curious and self-taught person. I enjoy outdoor activities
+            with my family and in my spare time I am a good gardener... I invite
+            you to explore my portfolio, which I will continue to enrich with
+            more projects. Welcome!!!
+          </p>
+        </div>
+      </section>
+
+      <!-- SKILLS SECTION -->
+      <section id="skills" class="skills-container">
+        <h3 class="title-sections">
+          MI <span style="color: #03f8c3">SKILLS</span>
+        </h3>
+        <div class="icono-skills-container">
+          <div class="icono-texto">
+            <i class="fa-solid fa-face-grin-wink tamanoicono"></i>
+            <h4>SOFT-SKILLS</h4>
+            <ul class="skills">
+              <li>Creativity</li>
+              <li>Communication</li>
+              <li>Teamwork</li>
+              <li>Emotional intelligence</li>
+              <li>Time management</li>
+              <li>Organization</li>
+              <li>Adaptability</li>
+            </ul>
+          </div>
+          <div class="icono-texto">
+            <i class="fa-solid fa-code tamanoicono"></i>
+            <h4>FULL STACK DEVELOPER STUDENT</h4>
+            <ul class="hard-skills">
+              <li><i class="fa-brands fa-html5"></i></li>
+              <li><i class="fa-brands fa-css3"></i></li>
+              <li><i class="fa-brands fa-js"></i></li>
+              <li><i class="fa-brands fa-github"></i></li>
+            </ul>
+          </div>
+          <div class="icono-texto">
+            <i class="fa-solid fa-cubes tamanoicono"></i>
+            <h4>3D ARTIST</h4>
+            <div class="zbrush-aling">
+              <img src="./assets/icons/ZBrush_23469.png" />
+              <p>ZBrush</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION PROJECTS -->
+      <section id="projects" class="projects-container">
+        <h3 class="title-sections">
+          PROJECTS HTML <span style="color: #03f8c3">CSS</span> JS
+        </h3>
+        <div class="proyectos-fcode-container">
+          <div class="proyecto-child">
+            <img
+              src="https://github.com/EUGEArg/images/blob/main/fridak-1.jpg?raw=true"
+              alt="project1"
+              class="proyectos-tamaño"
+            />
+          </div>
+          <div class="proyecto-child">
+            <a
+              href="https://codepen.io/euge-arg/pen/yLodjME"
+              target="_blank"
+              class="project-tile"
+            >
+              <img
+                src="https://github.com/EUGEArg/images/blob/main/producto-1.jpg?raw=true"
+                alt="proyect2"
+                class="proyectos-tamaño"
+              />
+            </a>
+          </div>
+          <div class="proyecto-child">
+            <a href="https://eugearg.github.io/to-do-tasks/" target="_blank">
+              <img src="./assets/images/tasks-list.jpg" class="apps-tamaño" />
+            </a>
+          </div>
+        </div>
+        <div class="apps-js-container">
+          <div class="apps-js-child">
+            <a href="https://eugearg.github.io/Ahorcado/" target="_blank">
+              <img src="./assets/images/ahorcado.jpg" class="apps-tamaño" />
+            </a>
+          </div>
+          <div class="apps-js-child">
+            <a href="https://eugearg.github.io/Blackjack/" target="_blank">
+              <img src="./assets/images/blackjack.jpg" class="apps-tamaño" />
+            </a>
+          </div>
+          <div class="apps-js-child">
+            <a href="https://eugearg.github.io/encriptador/" target="_blank">
+              <img src="./assets/images/encriptador.jpg" class="apps-tamaño" />
+            </a>
+          </div>
+        </div>
+
+        <h3 class="title-sections">
+          DISEÑO <span style="color: #03f8c3">3D</span>
+        </h3>
+        <div class="betty-container">
+          <div class="betty-child">
+            <img
+              src="./assets/images/betty-3-top.jpg"
+              alt="BettyDog"
+              class="top bettystamaño"
+            />
+            <img
+              src="./assets/images/betty-3.jpg"
+              alt="BettyDogstl"
+              class="bettystamaño"
+            />
+          </div>
+          <div class="betty-child">
+            <img
+              src="./assets/images/betty-2-top.jpg"
+              alt="BettyBoopGlam"
+              class="top bettystamaño"
+            />
+            <img
+              src="./assets/images/betty-2.jpg"
+              alt="BettyBoopGlamstl"
+              class="bettystamaño"
+            />
+          </div>
+          <div class="betty-child">
+            <img
+              src="./assets/images/betty-1-top.jpg"
+              alt="BettyBoop"
+              class="top bettystamaño"
+            />
+            <img
+              src="./assets/images/betty-1 .jpg"
+              alt="BettyBoopstl"
+              class="bettystamaño"
+            />
+          </div>
+        </div>
+        
+          <div class="modelados-stl-child">
+            <img
+              src="./assets/images/funko-escanor .jpg"
+              class="modelados-tamaño"
+              alt=""
+            />
+            <img
+              src="./assets/images/hombreradiactivo-1.jpg"
+              class="modelados-tamaño"
+              alt=""
+            />
+            <img
+              src="./assets/images/niñofusión.jpg"
+              class="modelados-tamaño"
+              alt=""
+            />
+            <img
+              src="./assets/images/kitana.jpg"
+              class="modelados-tamaño"
+              alt=""
+            />
+            <img
+              src="./assets/images/SNOWBALL2.jpg"
+              class="modelados-tamaño"
+              alt=""
+            />
+            <img
+              src="./assets/images/terminator.jpg"
+              class="modelados-tamaño"
+              alt=""
+            />
+            <img
+              src="./assets/images/Elephant.jpg"
+              class="modelados-tamaño"
+              alt=""
+            />
+            <img src="./assets/images/lowpolybear.jpg"
+            class="modelados-tamaño"
+            alt="">
+            <img src="./assets/images/ElephantLowPoly.gif" 
+            class="modelados-tamaño" 
+            alt="">
+            <img
+              src="./assets/images/red-riding-hood-1.jpg"
+              class="modelados-tamaño"
+              alt=""
+            />
+          </div>
+      
+
+        <div class="links-3d-row">
+          <h4>Puedes visitar mis diseños 3D siguiendo los enlaces:</h4>
+
+          <div class="links-row">
+            <a
+              id="profile-link"
+              class="link-cults-cgtrader"
+              target="_blank"
+              href="https://cults3d.com/es/usuarios/eugearg/creaci%C3%B3n"
+            >
+              <strong>Cults 3D</strong>
+            </a>
+            <a
+              id="profile-link"
+              class="link-cults-cgtrader"
+              target="_blank"
+              href="https://www.cgtrader.com/eugearg"
+              ><strong>CGTrader</strong></a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section id="contacto" class="contact-container">
+        <h3 class="title-sections">
+          PARA<span style="color: #03f8c3"> CONTACTAR</span> CONMIGO
+        </h3>
+        <div class="contactos">
+          <form>
+            <div class="form-contact">
+              <label for="nombre-apellido"></label>
+              <input
+                type="text"
+                id="nombre-apellido"
+                placeholder="Nombre y Apellido"
+                class="input-contact"
+              />
+              <label for="mail"></label>
+              <input
+                type="email"
+                name="mail"
+                id="mail"
+                required
+                placeholder="name@dominio.com"
+                class="input-contact"
+              />
+
+              <label for="asunto"></label>
+              <input
+                type="tel"
+                name="asunto"
+                id="asunto"
+                placeholder="Asunto"
+                class="input-contact"
+              />
+
+              <label for="mensaje"></label>
+              <textarea
+                name="mensaje"
+                id="mensaje"
+                cols="60"
+                rows="7"
+                class="input-contact"
+              ></textarea>
+            </div>
+            <div class="input-submit">
+              <input type="submit" value="Enviar!" class="enviar" />
+            </div>
+          </form>
+          <div class="mapa-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52989.56849919252!2d-60.600449159791054!3d-33.89356749887242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b84aad3ef60a31%3A0x481ac3277962e9c5!2sPergamino%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1647019571402!5m2!1ses!2sar"
+              width="400"
+              height="300"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+       
+      </section>
+      <footer>
+        <div class="nav-contactos">
+          <a
+            href="https://www.linkedin.com/in/eugenia-rivarossa"
+            target="_blank"
+            class="contacto"
+            ><img src="./assets/icons/linkedin.png" alt=""
+          /></a>
+          <a href="#email" class="nav-link contacto"
+            ><img src="./assets/icons/gmail.png" alt=""
+          /></a>
+          <a
+            href="https://t.me/eugeArg"
+            target="_blank"
+            class="contacto"
+            ><img src="./assets/icons/telegram.png" alt=""
+          /></a>
+          <a
+            href="https://github.com/EUGEArg"
+            target="_blank"
+            class="contacto"
+            ><img src="./assets/icons/github.png" alt=""
+          /></a>
+        </div>  
+      </footer>
+      <script src="app.js"></script>
+    </div>
+  </body>
+</html>
