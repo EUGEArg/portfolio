@@ -16,6 +16,7 @@ btnOpen.addEventListener("click", function(e) {
     console.log(isOpen)
     } else {
     menuNaveg.style.visibility = '';
+   
     
     isOpen = false;
     console.log(isOpen)
