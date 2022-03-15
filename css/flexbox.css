@@ -11,6 +11,10 @@
     text-align: center;
 }
 
+.item-redes{
+  flex-direction: row;
+}
+
 /* .menu-nav{
   display: flex;
   flex-direction: column;
