@@ -1,252 +1,249 @@
-
-    /*SECTIONS CONTAINER*/
-.welcome-container, .skills-container, .about-container, .contact-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  /* titulos secciones */
-.title-sections{
-    text-align: center;
-}
-
-.item-redes{
-  flex-direction: row;
-}
-
-/* .menu-nav{
+/*CONTAINER*/
+.welcome-container,
+.skills-container,
+.about-container,
+.contact-container {
   display: flex;
   flex-direction: column;
-}  */
+  justify-content: center;
+}
+
+/* titulos secciones */
+.title-sections {
+  text-align: center;
+}
+
+.item-redes {
+  flex-direction: row;
+}
 
 .icono-center {
   display: flex;
   flex-direction: column;
   align-items: center;
-}  
+}
 
-.scroll-container{
-  text-align: center; 
-   } 
+.scroll-container {
+  text-align: center;
+}
 
-  /* WELCOME SECTION */
-
-.welcome-childs{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-
-  
-  /* skills */
-
-.icono-skills-container{
+/* WELCOME SECTION */
+.welcome-childs {
   display: flex;
-  flex-direction: row;  
-  }
-  
+  justify-content: center;
+  align-items: center;
+}
+
+/* SKILLS SECTION */
+.icono-skills-container {
+  display: flex;
+  flex-direction: row;
+}
+
 .icono-texto {
-    display: flex;
-    flex-direction: column; 
-    align-items:center; 
-  } 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-.hard-skills{
-    display: flex;
-    flex-direction: row;
-   }
- 
+.hard-skills {
+  display: flex;
+  flex-direction: row;
+}
 
-   /* projects section */
-.projects-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    padding-top: 20px;
-  } 
+/* PROJECTS SECTION */
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
 
-  .titulo-proyecto{
- text-align: center;   
-  }
+.titulo-proyecto {
+  text-align: center;
+}
 
-.proyectos-fcode-container, .apps-js-container{
-    display: flex;
-    flex-direction: row;
-   }
+.proyectos-fcode-container,
+.apps-js-container {
+  display: flex;
+  flex-direction: row;
+}
 
-.betty-container{
+.betty-container {
   display: flex;
   flex-direction: row;
 }
 
 .links-3d-row {
-  
-    text-align: center;
- }
+  text-align: center;
+}
 
-
-.contactos{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items:center;
-  }
-   
-
-.form-contact{
+.contactos {
   display: flex;
-  flex-direction: column; 
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
-footer{
-  text-align: center; 
+.form-contact {
+  display: flex;
+  flex-direction: column;
 }
 
-@media(max-width: 768px){
-.welcome-container, .about-container, .skills-container, .contact-container{
-    padding: 10px;
-  }
-  
-.welcome-childs {
-    flex-direction: column;
+footer {
+  text-align: center;
 }
 
-.header-container{
-  visibility: hidden;
-}
-
-.menu {
-  position: fixed;
-  display: inline-flex;
-  width: 80%;
-  height: 8%;
-  right: 0;
-  top: 0;
-  z-index: 10;
-  justify-content: center;
-  visibility: hidden; 
-  background-color: rgb(27, 26, 27); 
- 
-}
-
-.item-redes{
-  display: none;
+@media (max-width: 768px) {
+  .welcome-container,
+  .about-container,
+  .skills-container,
+  .contact-container {
+    padding: 20px;
   }
 
-.nav-link{
+  .menu {
+    display: inline-flex;
+    width: 80%;
+    height: 8%;
+    right: 0;
+    top: 0;
+    z-index: 10;
+    justify-content: center;
+    background-color: rgb(43, 39, 39);
+  }
+
+  .item-redes {
+    display: none;
+  }
+
+  .nav-link {
     display: flex;
     flex-direction: row;
     padding-left: 10px;
   }
 
-
-.btn-open{
-  top: 0;
-  left: 0;
-}
-
-span.responsive{
-  display: none;
-}
-
-h1{
-  font-size: 45px;
-}
-
-h2{
-  font-size: 30px;
-}
-
-.img-portfolio{
-  width: 200px;
-}
-
-.about{
-  left: 12%;
-}
-
-h4{
-  font-size: 16px;
-  padding-left: 5px;
-}
-
-.icono-skills-container{
-  display: flex;
-  flex-direction: column;  
-  left: 0%;
+  .btn-open {
+    top: 0;
+    left: 0;
+    background-color: rgb(43, 39, 39);
+    font-size: 45px;
+    z-index: 10;
+    width: 20%;
+    height: 5.3%;
   }
 
-.tamanoicono{
+  .welcome-childs {
+    flex-direction: column;
+  }
+
+  span.responsive {
+    display: none;
+  }
+
+  h1 {
+    font-size: 45px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  .img-portfolio {
+    width: 200px;
+  }
+
+  .about {
+    left: 12%;
+  }
+
+  h4 {
+    font-size: 16px;
+    padding-left: 5px;
+  }
+
+  .icono-skills-container {
+    display: flex;
+    flex-direction: column;
+    left: 0%;
+  }
+
+  .tamanoicono {
     font-size: 45px;
     padding: 25px;
   }
 
-.title-sections{
-  margin-top: 40px;
-   font-size: 20px;
+  .title-sections {
+    margin-top: 40px;
+    font-size: 20px;
   }
 
-.icono-texto {
+  .icono-texto {
     margin-bottom: 40px;
     flex-direction: column;
     text-align: center;
   }
 
-.hard-skills, .zbrush-aling {
+  .hard-skills,
+  .zbrush-aling {
     display: flex;
     flex-direction: row;
     margin-top: 0;
-}
- 
-.proyecto-child, .apps-js-child{
-      margin-left: 0;
-    }
-   
-.proyectos-tamaño, .apps-tamaño{
-      width: 250px;
-      margin-left: 0;
-    }
+  }
 
-.proyectos-fcode-container, .apps-js-container, .betty-container{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
+  .proyecto-child,
+  .apps-js-child {
+    margin-left: 0;
+  }
 
-.modelados-stl-child{
-      padding-left: 25px;
-    }
+  .proyectos-tamaño,
+  .apps-tamaño {
+    width: 250px;
+    margin-left: 0;
+  }
 
-.modelados-tamaño{
-      margin: 10px 20px 10px 20px;
-    }
+  .proyectos-fcode-container,
+  .apps-js-container,
+  .betty-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-.contactos{
-      display: flex;
-      flex-direction: column;
-    }
+  .modelados-stl-child {
+    padding-left: 25px;
+  }
 
-.contact-container{
-     height: 100vh;
-    }
+  .modelados-tamaño {
+    margin: 10px 20px;
+  }
 
-.input-contact{
-   font-size: 10px;
-    }
+  .contactos {
+    display: flex;
+    flex-direction: column;
+  }
 
-.mapa-container{
-      padding-top: 20px;
-    }
-    
-.enviar{
-      font-size: 15px;
-      padding: 10px 20px;  
-    }
+  .contact-container {
+    height: 100vh;
+  }
 
-.nav-contactos {
+  .input-contact {
+    font-size: 10px;
+  }
+
+  .mapa-container {
+    padding-top: 20px;
+  }
+
+  .enviar {
+    font-size: 15px;
+    padding: 10px 20px;
+  }
+
+  .nav-contactos {
     padding-left: 20px;
-}
-
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
 }
