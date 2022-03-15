@@ -23,17 +23,7 @@ btnOpen.addEventListener("click", function(e) {
     }  
 });
 
-// if(isOpen){
-//     btnOpen.addEventListener("click", function(e) {
-//         menuNaveg.style.visibility = 'hidden';
-//         isOpen = false;
-//     })
-// }
-
-
-//  ciclo for para abrir y cerrar
-
-
+// CAMBIAR LOGO POR HAMBURGUESA EN VERSION CELULAR FALTA!!!!
 
     
 
