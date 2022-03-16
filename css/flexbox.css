@@ -1,12 +1,14 @@
 /*CONTAINER*/
+
+
 .welcome-container,
-.skills-container,
 .about-container,
-.contact-container {
+.skills-container,
+.about-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
+} 
 
 /* titulos secciones */
 .title-sections {
@@ -44,6 +46,8 @@
 .icono-skills-container {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
 }
 
 .icono-texto {
@@ -61,8 +65,8 @@
 .projects-container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  padding-top: 20px;
 }
 
 .titulo-proyecto {
@@ -82,13 +86,13 @@
 
 .links-3d-row {
   text-align: center;
+  padding: 20px;
 }
 
 .contactos {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: center;
 }
 
 .form-contact {
@@ -96,26 +100,30 @@
   flex-direction: column;
 }
 
-footer {
-  text-align: center;
+.nav-contactos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (max-width: 768px) {
+ 
   .welcome-container,
   .about-container,
   .skills-container,
-  .contact-container {
-    padding: 20px;
+  .contact-container,
+  .projects-container {
+    margin-left: 0%;
   }
 
   .menu {
     display: inline-flex;
-    width: 80%;
+    width: 100%;
     height: 8%;
-    right: 0;
     top: 0;
     z-index: 10;
-    justify-content: center;
+    justify-content: end;
     background-color: rgb(43, 39, 39);
   }
 
@@ -124,21 +132,18 @@ footer {
   }
 
   .nav-link {
-    display: flex;
-    flex-direction: row;
-    padding-left: 10px;
+    padding-right: 20px
   }
 
   .btn-menu{
     position: fixed;
     background-color: rgb(43, 39, 39);
+    z-index: 100;
   
   }
 
   .btn-open {
-    z-index: 10;
-    width: 30vw;
-    
+    width: 30vw; 
   }
 
   .welcome-childs {
@@ -161,10 +166,6 @@ footer {
     width: 200px;
   }
 
-  .about {
-    left: 12%;
-  }
-
   h4 {
     font-size: 16px;
     padding-left: 5px;
@@ -182,8 +183,9 @@ footer {
   }
 
   .title-sections {
-    margin-top: 40px;
+    padding: 20px;
     font-size: 20px;
+    padding: 0;
   }
 
   .icono-texto {
@@ -207,7 +209,7 @@ footer {
   .proyectos-tamaño,
   .apps-tamaño {
     width: 250px;
-    margin-left: 0;
+    margin: 10px;
   }
 
   .proyectos-fcode-container,
@@ -219,7 +221,9 @@ footer {
   }
 
   .modelados-stl-child {
-    padding-left: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .modelados-tamaño {
@@ -229,10 +233,7 @@ footer {
   .contactos {
     display: flex;
     flex-direction: column;
-  }
-
-  .contact-container {
-    height: 100vh;
+    align-items: center;
   }
 
   .input-contact {
@@ -243,6 +244,10 @@ footer {
     padding-top: 20px;
   }
 
+  .form-contact {
+    width: 340px;
+  }
+
   .enviar {
     font-size: 15px;
     padding: 10px 20px;
@@ -251,7 +256,8 @@ footer {
   .nav-contactos {
     padding-left: 20px;
     display: flex;
-  justify-content: center;
-  align-items: center;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
   }
 }

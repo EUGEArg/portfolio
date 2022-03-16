@@ -2,13 +2,11 @@ body {
   background-color: rgb(43, 39, 39);
   font-family: "Montserrat", sans-serif;
   color: white;
+  min-height: 100vh;
+  overflow-x: hidden;
 }
 
 /* ----- HEADER----- */
-.item-menu {
-  align-items: center;
-}
-
 .menu {
   position: fixed;
   height: 80vh;
@@ -27,16 +25,21 @@ body {
 
 .icon-nav {
   width: 20px;
-  padding-left: 17px;
-  padding-top: 20px;
+  margin: 10px 5px;
+}
+
+.item-menu {
+  text-align: center;
+  justify-content: center;
+  display: flex;
 }
 
 /* ----- BTN-OPEN SECTION----- */
-.btn-menu{
+.btn-menu {
   position: fixed;
   height: 20vh;
   width: 10vw;
-  background-color: rgb(27, 26, 27); 
+  background-color: rgb(27, 26, 27);
 }
 
 .btn-open {
@@ -46,8 +49,6 @@ body {
   color: #692ff1;
   text-shadow: -28px -18px 0px #20f0c3;
   padding-top: 30px;
-
-  
 }
 
 .btn-open:hover {
@@ -58,14 +59,14 @@ body {
 /* ----- CONTAINER ----- */
 .welcome-container,
 .about-container,
+.contact-container,
 .skills-container {
   height: 100vh;
-  padding-left: 90px;
+  margin-left: 10%;
 }
 
-.contact-container {
-  height: 90vh;
-  padding-left: 100px;
+.projects-container {
+  margin-left: 10%;
 }
 
 /* ----- WELCOME SECTION----- */
@@ -85,7 +86,7 @@ body {
 }
 
 .scroll-container {
-  height: 5vh;
+  height: 10vh;
 }
 
 .scroll-page {
@@ -101,44 +102,25 @@ h2 {
   font-size: 30px;
 }
 
-.rotate {
-  animation: 3s infinite slidein;
-}
-
-@keyframes slidein {
-  from {
-    margin-left: 0%;
-    width: 50%;
-  }
-
-  to {
-    margin-left: 50%;
-    width: 100%;
-    opacity: 60%;
-  }
-}
-
 h4 {
   font-size: 20px;
   padding: 15px;
 }
 
-/* ----- ABOUT SECTION----- */
 .title-sections {
-  padding: 20px;
-  margin: 20px 0;
+  padding: 30px;
+  margin-top: 30px;
   font-size: 25px;
 }
 
+/* ----- ABOUT SECTION----- */
 .about-child {
   text-align: center;
 }
 
 .about {
-  position: relative;
-  left: 15%;
-  width: 80%;
   padding-top: 30px;
+  margin: 10%;
 }
 
 p {
@@ -175,12 +157,6 @@ p {
   margin-top: 35px;
 }
 
-.icono-skills-container {
-  position: relative;
-  left: 20%;
-  padding-top: 30px;
-}
-
 .tamanoicono {
   font-size: 85px;
   padding: 50px;
@@ -204,16 +180,15 @@ p {
   margin: 8px;
 }
 
-.titulo-proyecto {
-  font-size: 17px;
-  text-decoration: none;
-}
-
 .proyectos-tamaño,
 .apps-tamaño {
   width: 260px;
-  margin-left: 40px;
+  margin: 20px 20px 10px 20px;
   border-radius: 5%;
+}
+
+.sub-title {
+  margin-top: 40px;
 }
 
 .bettystamaño {
@@ -224,11 +199,6 @@ p {
 
 .betty-container {
   z-index: 5;
-}
-
-.proyecto-child,
-.apps-js-child {
-  margin-left: 40px;
 }
 
 .betty-child img.top {
@@ -247,7 +217,10 @@ p {
 }
 
 .modelados-stl-child {
-  padding-left: 15%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
 }
 
 .modelados-tamaño {
@@ -261,6 +234,10 @@ p {
   color: #20f0c3;
   text-decoration: none;
   padding: 20px;
+}
+
+.contact-container {
+  padding-top: 70px;
 }
 
 .input-contact {
@@ -297,9 +274,14 @@ p {
   text-align: end;
 }
 
+.form-contact {
+  width: 500px;
+  padding-right: 20px;
+}
+
 .nav-contactos {
   font-family: "Montserrat", sans-serif;
-  height: 10%;
+  height: 50%;
 }
 
 .contacto {
