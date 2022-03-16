@@ -13,6 +13,12 @@
   text-align: center;
 }
 
+.btn-open{
+  display: flex;
+  justify-content: center;
+}
+
+
 .item-redes {
   flex-direction: row;
 }
@@ -123,14 +129,16 @@ footer {
     padding-left: 10px;
   }
 
-  .btn-open {
-    top: 0;
-    left: 0;
+  .btn-menu{
+    position: fixed;
     background-color: rgb(43, 39, 39);
-    font-size: 45px;
+  
+  }
+
+  .btn-open {
     z-index: 10;
-    width: 20%;
-    height: 5.3%;
+    width: 30vw;
+    
   }
 
   .welcome-childs {
