@@ -1,0 +1,164 @@
+@media (max-width: 768px) {
+ 
+    .welcome-container,
+    .about-container,
+    .skills-container,
+    .contact-container,
+    .projects-container {
+      margin-left: 0%;
+      margin-top: 10%;
+    }
+  
+    .menu {
+      display: inline-flex;
+      width: 100%;
+      height: 8%;
+      top: 0;
+      z-index: 10;
+      justify-content: end;
+      background-color: rgb(43, 39, 39);
+    }
+  
+    .item-redes {
+      display: none;
+    }
+  
+    .nav-link {
+      padding-right: 20px
+    }
+  
+    .btn-menu{
+      position: fixed;
+      background-color: rgb(43, 39, 39);
+      z-index: 100;
+    
+    }
+  
+    .btn-open {
+      width: 30vw; 
+    }
+  
+    .welcome-childs {
+      flex-direction: column;
+    }
+  
+    span.responsive {
+      display: none;
+    }
+  
+    h1 {
+      font-size: 45px;
+    }
+  
+    h2 {
+      font-size: 30px;
+    }
+  
+    .img-portfolio {
+      width: 200px;
+    }
+  
+    h4 {
+      font-size: 16px;
+      padding-left: 5px;
+    }
+  
+    .skills-container {
+      padding-top: 30px;
+    }
+
+    .icono-skills-container {
+      display: flex;
+      flex-direction: column;
+      left: 0%;
+    }
+  
+    .tamanoicono {
+      font-size: 45px;
+      padding: 25px;
+    }
+  
+    .title-sections {
+      padding: 20px;
+      font-size: 20px;
+      padding-top: 30px;
+    }
+  
+    .icono-texto {
+      margin-bottom: 40px;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .skills{
+      margin-top: 0;
+    }
+  
+    .hard-skills,
+    .zbrush-aling {
+      display: flex;
+      flex-direction: row;
+      margin-top: 0;
+    }
+  
+    .proyecto-child,
+    .apps-js-child {
+      margin-left: 0;
+    }
+  
+    .proyectos-tamaño,
+    .apps-tamaño {
+      width: 250px;
+      margin: 10px;
+    }
+  
+    .proyectos-fcode-container,
+    .apps-js-container,
+    .betty-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .modelados-stl-child {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .modelados-tamaño {
+      margin: 10px 20px;
+    }
+  
+    .contactos {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .input-contact {
+      font-size: 10px;
+    }
+  
+    .mapa-container {
+      padding-top: 20px;
+    }
+  
+    .form-contact {
+      width: 340px;
+    }
+  
+    .enviar {
+      font-size: 15px;
+      padding: 10px 20px;
+    }
+  
+    .nav-contactos {
+      padding-left: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 20%;
+    }
+  }
+  

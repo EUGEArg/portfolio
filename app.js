@@ -9,22 +9,22 @@ const menuNaveg = document.getElementById('menu'); // Barra de navegación    //
 
 let isOpen = false;
 
-btnOpen.addEventListener("click", function(e) {
-    if (!isOpen){
-    menuNaveg.style.visibility = 'visible';
-    isOpen = true;
-    console.log(isOpen)
-    } else {
-    menuNaveg.style.visibility = '';
+ btnOpen.addEventListener("click", function(e) {
+   if (!isOpen){
+   menuNaveg.style.visibility = 'visible';
+     isOpen = true;
+     console.log(isOpen)
+     } else {
+     menuNaveg.style.visibility = '';
    
     
-    isOpen = false;
+     isOpen = false;
     console.log(isOpen)
-    }  
-});
+     }  
+ });
 
 // CAMBIAR LOGO POR HAMBURGUESA EN VERSION CELULAR FALTA!!!!
 
-    
+
 
    
