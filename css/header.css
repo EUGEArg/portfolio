@@ -1,0 +1,143 @@
+body {
+    background-color: rgb(43, 39, 39);
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    overflow-x: hidden;
+  }
+  
+
+.navbar {
+    height: 100vh;
+    width: 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(27, 26, 27); 
+    position: fixed;
+    padding-top: 40px;
+}
+
+.letter-e {
+    font-size: 90px;
+    font-weight: 900;
+    text-decoration: none;
+    color: #692ff1;
+    text-shadow: -28px -18px 0px #20f0c3;
+    padding-top: 30px;
+    
+  }
+
+.letter-e:hover {
+    color: #20f0c3;
+    text-shadow: -30px -20px 0px #692ff1;
+  }
+  
+
+.menu {
+    height: 80vh;
+}
+
+.item-menu {
+    list-style: none;
+    padding-top: 18px;
+    
+}
+
+.nav-link {
+    color: #20f0c3;  
+    font-size: 20px; 
+    text-decoration: none;
+    border-bottom: 2px solid rgb(43, 39, 39);
+    padding-bottom: 20px;
+}
+
+.icono-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-redes {
+    padding-top: 50px;
+}
+
+.icon-nav {
+    padding: 5px;
+}
+
+
+
+.btn-responsive {
+    display: none;   
+    cursor: pointer;
+    border: none;
+    margin: 0;
+    padding-left: 15px;
+    background-color: transparent;  
+
+}
+
+.btn-responsive span {
+    display: block;
+    background-color: #20f0c3;
+    height: 4px;
+    width: 30px;
+    margin: 10px auto;
+    border-radius: 2px;
+}
+
+
+/* MOBILE */
+@media (max-width: 768px) {
+    .navbar {
+       height: 80vh;
+       width: 80vw;   
+       display: none;  
+       top: 0;
+   } 
+
+   .navbar.activado {
+       display: flex;
+   }
+
+   .br-1.animado{
+       transform: rotate(-45deg) translate(-10px, 10px);
+   }
+
+   .br-2.animado{
+       opacity: 0;
+   }
+  
+   .br-3.animado{
+   transform: rotate(45deg) translate(-10px, -10px);
+   }
+
+   .menu {
+       height: 90vh;
+   }
+
+   .letter-e {
+       display: none;
+   }
+
+   .item-redes {
+       display: flex;
+       justify-content: center;
+ }
+  
+   .nav-link {
+       color: #20f0c3;  
+       text-decoration: none;
+       padding-bottom: 20px;
+       border-bottom: 2px solid black;
+       padding-top: 10px;
+       width: 80vw;   
+   }  
+
+   .btn-responsive {
+    display: block;   
+    position: fixed;
+    top: 0;
+}
+}
