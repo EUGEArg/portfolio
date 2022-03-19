@@ -95,6 +95,8 @@ body {
        width: 80vw;   
        display: none;  
        top: 0;
+       z-index: 1;
+       
    } 
 
    .navbar.activado {
@@ -138,6 +140,13 @@ body {
    .btn-responsive {
     display: block;   
     position: fixed;
+    z-index: 2;
     top: 0;
+    transition: 0.2s 0.1s;
 }
+
+.btn-responsive:hover {
+    transform: rotate(360deg);
+}
+
 }
