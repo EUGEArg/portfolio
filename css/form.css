@@ -89,6 +89,7 @@
   }
 
 .registro-send {
+    text-align: center;
     font-size: 30px;
     border: 2px solid #20f0c3;
     border-radius: 5px;
