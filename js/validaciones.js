@@ -3,7 +3,7 @@
    
     if (input.validity.valid) {  //Comparo para cambiar clase css--- error de dato ingresado
       input.parentElement.classList.remove("input-contact--invalido");
-      input.parentElement.querySelector(".input-mensaje-error").innerHTML = " ";
+      input.parentElement.querySelector(".input-mensaje-error").innerHTML = "";
     } else {
       input.parentElement.classList.add("input-contact--invalido");
       input.parentElement.querySelector(".input-mensaje-error").innerHTML =

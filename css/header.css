@@ -19,13 +19,14 @@ body {
 }
 
 .letter-e {
+    display: flex;
+    justify-content: center;
     font-size: 90px;
     font-weight: 900;
     text-decoration: none;
     color: #692ff1;
     text-shadow: -28px -18px 0px #20f0c3;
-    padding-top: 30px;
-    
+    padding-top: 30px;    
   }
 
 .letter-e:hover {
@@ -59,14 +60,14 @@ body {
 }
 
 .item-redes {
+    flex-direction: row;
+    margin-top: 5px;
     padding-top: 50px;
 }
 
 .icon-nav {
     padding: 5px;
 }
-
-
 
 .btn-responsive {
     display: none;   
@@ -149,3 +150,9 @@ body {
 }
 
 }
+
+
+
+  
+
+
