@@ -130,5 +130,9 @@
       align-items: center;
       height: 20%;
     }
+
+    footer {
+      display: none;
+    }
   }
   

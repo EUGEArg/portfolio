@@ -200,6 +200,7 @@ form {
   opacity: 70%;
   background-color: rgb(51, 48, 48);
   border: 1.5px solid rgb(43, 39, 39);
+  color: aliceblue;
 }
 
 .input-contact:hover {
@@ -273,4 +274,10 @@ form {
   border: 2px solid #20f0c3;
   border-radius: 5px;
   padding: 20px;
+}
+
+footer {
+  font-size: 14px;
+  text-align: center;
+
 }
