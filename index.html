@@ -363,48 +363,58 @@
 
     <section id="contacto" class="contact-container">
       <h3 class="title-sections">
-        <span style="color: #03f8c3"> CONTACT</span> ME
+        <span style="color: hsl(167, 98%, 49%)"> CONTACT</span> ME
       </h3>
       <div class="contactos">
         <form>
+            <div class="form-contact">
+            <input
+              name="name"
+              type="text"
+              id="nombre"
+              placeholder="Nombre y Apellido" required
+              class="input-contact"     
+              data-tipo="nombre"    
+            >
+            <label for="Nombre"></label>
+            <span class="input-mensaje-error"></span>
+          </div>
           <div class="form-contact">
-            <label for="nombre-apellido"></label>
+            <input
+              name="email"
+              id="email"
+              class="input-contact"
+              type="email"
+              required placeholder="name@dominio.com"    
+              data-tipo="email"       
+            >
+            <label for="email"></label>
+            <span class="input-mensaje-error"></span>
+          </div>  
+          <div class="form-contact">
             <input
               type="text"
-              id="nombre-apellido"
-              placeholder="Nombre y Apellido"
-              class="input-contact"
-            />
-            <label for="mail"></label>
-            <input
-              type="email"
-              name="mail"
-              id="mail"
-              required
-              placeholder="name@dominio.com"
-              class="input-contact"
-            />
-
-            <label for="asunto"></label>
-            <input
-              type="tel"
               name="asunto"
               id="asunto"
               placeholder="Asunto"
               class="input-contact"
-            />
-
-            <label for="mensaje"></label>
-            <textarea
-              name="mensaje"
-              id="mensaje"
-              cols="60"
-              rows="7"
-              class="input-contact"
-            ></textarea>
+              data-tipo="asunto"
+            >
+            <label for="asunto"></label> 
           </div>
-          <div class="input-submit">
-            <input type="submit" value="Send!" class="enviar" />
+          <div class="form-contact">
+            <textarea
+            name="mensaje"
+            id="mensaje"
+            cols="60"
+            rows="7"
+            class="input-contact"
+          ></textarea>
+            <label for="mensaje"></label> 
+          </div> 
+          <div class="btn-submit">
+            <a href="./registroform.html"> <button class="enviar">Send!</button></a>
+            
           </div>
         </form>
         <div class="mapa-container">
@@ -436,6 +446,8 @@
         /></a>
       </div>
     </section>
-    <script src="header.js"></script>
+    <script src="./js/header.js"></script>
+    <script src="./js/app.js" type="module"></script>
+   <footer>Hecho con &#128151 by EugeARG</footer>
   </body>
 </html>

@@ -87,7 +87,6 @@ body {
     border-radius: 2px;
 }
 
-
 /* MOBILE */
 @media (max-width: 768px) {
     .navbar {
@@ -95,7 +94,7 @@ body {
        width: 80vw;   
        display: none;  
        top: 0;
-       z-index: 1;
+       z-index: 10;
        
    } 
 
@@ -140,7 +139,7 @@ body {
    .btn-responsive {
     display: block;   
     position: fixed;
-    z-index: 2;
+    z-index: 11;
     top: 0;
     transition: 0.2s 0.1s;
 }
