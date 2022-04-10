@@ -1,5 +1,6 @@
 .es-en {
  text-align: end;
+ margin: 18px;
 }
 
 .en {
@@ -44,4 +45,12 @@
 
 .check:checked:before {
     background: #692ff1 ;
+}
+
+@media (max-width: 768px) {
+    .es-en  {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
 }

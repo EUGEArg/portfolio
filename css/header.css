@@ -140,7 +140,7 @@ body {
    .btn-responsive {
     display: block;   
     position: fixed;
-    z-index: 11;
+    z-index: 14;
     top: 0;
     transition: 0.2s 0.1s;
 }

@@ -80,8 +80,7 @@
       margin-left: 0;
     }
   
-    .proyectos-tamaño,
-    .apps-tamaño {
+    .apps-size{
       width: 250px;
       margin: 10px;
     }
@@ -99,8 +98,7 @@
       flex-wrap: wrap;
       justify-content: center;
     }
-  
-    .modelados-tamaño {
+    .modelados-size {
       margin: 10px 20px;
     }
   

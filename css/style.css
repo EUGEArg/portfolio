@@ -162,8 +162,7 @@ p {
   flex-direction: row;
 }
 
-.proyectos-tamaño,
-.apps-tamaño {
+.apps-size {
   width: 260px;
   margin: 20px 20px 10px 20px;
   border-radius: 5%;
@@ -173,7 +172,7 @@ p {
   margin-top: 40px;
 }
 
-.bettystamaño {
+.betty-size {
   width: 200px;
   margin: 10px;
   border-radius: 5%;
@@ -207,7 +206,7 @@ p {
   margin-bottom: 20px;
 }
 
-.modelados-tamaño {
+.modelados-size {
   width: 140px;
   margin: 10px 30px 10px 30px;
   border-radius: 6%;
